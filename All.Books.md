@@ -2,7 +2,7 @@
 id: c1bs7wsjfbhb0zipaywqv1
 title: Books
 desc: ''
-updated: 1666636401774
+updated: 1666815972636
 created: 1654223767390
 currentStep: 0
 totalSteps: 0
@@ -17,7 +17,7 @@ You are currently in t tutorial vault (a vault is the folder where your notes ar
 
 ![](/assets/images/2022-10-24-20-12-34.png)
 
-[[All.Programming]]
+
 
 - > This is a note box
 ## Create a Note
