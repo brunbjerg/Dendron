@@ -14,12 +14,17 @@ Skal jeg skrive til hende direkte eller prøve at snakke med hende? Jeg har ikke
 * Hej Katrine. Jeg har længe overvejet at skrive til dig og jeg er kommet frem til at det vil være det bedste. Jeg har holdt på noget længe og brugt det på en 
 
 
-Kære Katrine
+Hej Katrine
+Jeg har siden vi gik fra hinanden haft en følelse af, at vi en dag vil finde sammen igen og skabe en familie en dag. Jeg har gennem de sidste 6 år gjort en masse fjollede ting for at dit liv og mit kunne mødes på en måde, som vil gøre sådan en fantasi troværdig.
 
-Jeg har aldrig kommet mig over dig. Jeg har altid haft en følelse af at vi en dag vil finde sammen igen, købe et hus og skabe en familie sammen. Jeg har gennem de sidste 6 år gjort en helt masse fjollede ting for at dit liv og mit kunne mødes på en måde som vil gøre sådan en fantasi troværdig.
+Jeg har været en komplet tåbe. Jeg tog til københavn, fordi jeg var sikker på at du vil komme herover. Jeg har knust søde pigers hjerter, fordi jeg ikke vil udelukke dig. Jeg har ikke vil acceptere mig selv, fordi jeg ikke følte mig god nok til dig.
 
-Jeg er en kæmpe idiot på grund af alle de ting jeg har gjort. Jeg tog til københavn, fordi jeg var sikker på at du vil komme herover at studere. Jeg har knust så mange søde pigers hjerter fordi jeg ikke vil udelukke dig. Jeg har ikke accepteret mig selv fordi jeg ikke følte mig god nok til at være sammen med en så smuk og perfekt pige som dig.
+Jeg har lyst til at gifte mig med dig om
 
-Det er ironisk at det ledte det til det logiske svar at fikse mit selvværd var det eneste rigtige at gøre. Nu er jeg her, klar til at elske igen, jeg har ingen bagtanker eller forventninger, men jeg kan mærke i mit hjerte at jeg bliver nød til at skrive det her til dig inden at jeg giver mig til en anden. 
 
-Du har gjort mig til den bedste version af migselv, du har helt bogstavelig betydet mere for det liv jeg lever end noget andet. 
+
+
+Hej Katrine
+Jeg har siden vi gik fra hinanden haft en følelse af, at vi en dag vil finde sammen igen og skabe en familie. Jeg tænker ofte på dig 
+
+Jeg har virkelig været en tåbe gennem de sidste 6 år. Jeg har ingen bagtanker eller forventninger med at skrive til dig. Jeg kan mærke i min mave at det vil gavne at du ved det inden jeg giver mig hen til en anden.
