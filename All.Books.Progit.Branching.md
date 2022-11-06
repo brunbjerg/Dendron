@@ -2,7 +2,7 @@
 id: ia71xf3u1ckn3qlgntmpxqr
 title: Branching
 desc: ''
-updated: 1667751743425
+updated: 1667753113475
 created: 1667575111762
 ---
 
@@ -17,3 +17,10 @@ Creating a new branch does not necessarily branch the snapshot. If the master re
 
 Id some other part of the code breaks we simply switch to that. When switching branches git set working directory to what it was last time there was committed to that branch. 
 
+fast forward merge is when we can simply move the pointer forward to the place where the merge will happen. Meaning there was no branches. 
+
+I am on main, merging in test to the main branch. 
+
+Three way merge using the two snapshot that the pointers at the two tips points to as well as the common ancestor of the two.
+
+merge commit: the merge results in a new commit. This new commit then has two parents. One for each branch that were merged together. It should be noted that since we merged in the test branch, the pointers form a straight line when using the main branch as the reference. 
