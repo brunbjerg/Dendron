@@ -4,7 +4,7 @@ title: Week 10
 desc: ''
 publishing:
 enableKatex: true
-updated: 1668086597635
+updated: 1668088708034
 created: 1668081905577
 ---
 
@@ -52,14 +52,27 @@ ACF: Autocorrelation function
 ## Non-Stationary models
 * The mean is not stationary
 * It is hard to model. To adjust for this we take the difference between consecutive observations.
+* Start by differencing
+* Stationary by definition means that a process is out of control, since process is in the process of changing. 
+* ACF and PACF should be used as tools to gauge the process.
+* Tables on how to use ACF and PACF should only be used after process is stationary. 
+* ARMA models brute force start with ARMA(3, 3)
+* Apply model on control data. When residual are in-control, we are done. 
 
-
-
-
-
-d
-
+## Examples ARIMA models
 I should port all my notes by making a new vault in Dendron and simply copy my notes into that. 
+
+## AIC, Akaike Information Criterion
+* Information criteria. Favors smaller model, adjusts for model parameters.
+* AIC is really interesting. I should read up on difference between AIC and BIC. 
+
+## Residuals
+* We use ARIMA to adjust data, if there is autocorrelation in the data we can remove it by using ARIMA. 
+* We make the control chart on the residuals. 
+
+
+
+
 
 
 # I really should get these notes working on my work PC. 
