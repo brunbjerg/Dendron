@@ -2,7 +2,7 @@
 id: rc8qgny3fmoxgas6hdn5bfr
 title: Week 10 - Multi-commodity Flow
 desc: ''
-updated: 1668155375234
+updated: 1668157478500
 created: 1668151872827
 ---
 Each edge has a capacity $u_e$ and a unit transpotation cost $c_e$. K mommodities are given. 
@@ -82,8 +82,20 @@ Subtract dual variable from path cost. Path costs are found using dijkstras algo
 In general:
 * Interaction between master problem and subproblem
 * Add all paths with negative reduced cost to master problem
-* Stavilization: Dual variables may fluctuate in the beginning, add soft sonstraints to dual variables.
+* Stabilization: Dual variables may fluctuate in the beginning, add soft sonstraints to dual variables.
+
+We just want the dual solutions from the subproblem to tell us if we can save cost.
+
+## Column Generations
+* Advantages: Good for large problems; easy to add constraints to the subproblem.
 
 
+## Time constrained MCFP
+Hard to handle in the MIP formulation. We need to add a new index to keep track of the time period that the delivery is made. They are easy to solve in the subproblem. Things are generally easier to solve in the subproblem. 
 
-We just want the dual solution. 
+# How to model a hub port
+Containers come from different nodes we store the containers so that they can be put on new ships to different ports. We want to model how many days the container is on land. Storage capacity. Storage cost. Only have to pay if you change ship. Split the hub and make a node for each vessel. 
+
+Transshipment time is hard as containers become annynomous when arriving in port. Vessel-to-vessel edges then we can put times on these edges. These edges can also be used for crane costs. Edges share crane capacity. Storages capacity is hard to model. We create more advanced graphs to take different factors into account. We week 10 slides if we are in doubt. 
+
+Lagragian relaxation: I want to understand this probably.
