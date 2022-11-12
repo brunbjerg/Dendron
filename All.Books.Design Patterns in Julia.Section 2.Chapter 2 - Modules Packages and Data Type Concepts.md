@@ -2,7 +2,7 @@
 id: aze24cxz854zt4nvvefa6zl
 title: Chapter 2 - Modules Packages and Data Type Concepts
 desc: ''
-updated: 1668103567784
+updated: 1668182183167
 created: 1667919195265
 ---
 
@@ -126,3 +126,52 @@ Types can, unlike many other languages be defined without fields. For this reaso
 ## A personal asset type hierarchy example.
 
 Any is always a supertype. Top-level supertype. 
+
+Associate abstract types with functions. 
+
+### Defining functions for abstract types
+Defining an error function can be a good idea. When concrete types are called later they will throw an error. Good point. 
+
+## Interaction between objects
+We are able to develop generic code going forward because we have the generic type and behaviors defined on them.
+
+If we could not do this for abstract type we would have to develop a method for each combination of subtypes for the Property type. 
+
+## Concrete types
+A concrete type is used to define hwo data is organized. In Julia, there are two kinds of concrete types.
+* Primitive type: Int, Float
+* Composite type: Set of named fields, struct (good)
+
+Primitive types carry pure bits. 
+
+Initialize element by using a constructor. Simply meaning that the constructor takes the fieldnames as arguments. This is cool, stop questioning it never, just do it! Yes! 
+
+Push through CRAP, critisism, rejection, assholes and peerpresure! Cool that you have remembered that. 
+
+Composites are by default immutable. This means that their fields are not changable after the object is created. Immutability is good as it eliminates surprises when system behavior changes unexpectedly because of data modification. 
+
+## Mutable or immutable? 
+Why isn't everything mutable by default? 
+* Immutable objects are easier to handle. Functions operating on data will always return consistent results. No surprises. 
+* Mutable objects become difficult when multi-threading. 
+
+Mutable structs lets us reuse allocated memory over and over again. 
+
+## Supporting miltiple types using Union types
+Sometimes, we need to support multiple types in a field. This can be done using a Union type, which is defined as a type that can accept any specified types. To define a Union type, we can just enclose the types within curly braces afer the Union keyword. 
+
+Union is useful when we want to incorporate data types that come from different data type hierarchies. Extending types for example. Exotics items for example.
+
+Give complex types a variable for example if you have a Union of types. We can keep adding things to the Union. Thereby easily incorporate new type in our system. This makes the code easier to maintain. 
+
+Union{T, nothing}
+
+
+## Working with type operators
+<: is-a-subtype-of
+
+isa checks a value against a type.
+
+<: checks a type against a type
+
+Both are useful for type checking. 
